@@ -4,6 +4,9 @@
    astring v0.8.3
   ---------------------------------------------------------------------------*)
 
+open Astring_cap_tee 
+
+
 let strf = Format.asprintf
 let ( ^ ) = Astring_string.append
 
