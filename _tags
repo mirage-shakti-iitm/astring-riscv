@@ -1,4 +1,4 @@
-true : package(bytes), asm, bin_annot, safe_string, function-sections
+true : package(bytes), asm, bin_annot, safe_string, function_sections
 
 <src> : include
 <src/astring_top*> : package(compiler-libs.toplevel)
