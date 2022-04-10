@@ -3,7 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    astring v0.8.3
   ---------------------------------------------------------------------------*)
-open Astring_char_cap_tee 
+(* open Astring_char_cap_tee  *)
 
 let err_byte b = Printf.sprintf "%d is not a byte" b
 

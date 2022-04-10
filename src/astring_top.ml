@@ -3,7 +3,7 @@
    Distributed under the ISC license, see terms at the end of the file.
    astring v0.8.3
   ---------------------------------------------------------------------------*)
-open Astring_top_cap_tee 
+(* open Astring_top_cap_tee  *)
 let () = ignore (Toploop.use_file Format.err_formatter "astring_top_init.ml")
 
 (*---------------------------------------------------------------------------

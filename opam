@@ -16,7 +16,7 @@ depends: [
   "topkg" {build} ]
 
 build: [
-  [ make "add-cap-files"]
+  (* [ make "add-cap-files"] *)
   [ "ocaml" "pkg/pkg.ml" "build" "--pinned" "%{pinned}%" "--toolchain" "riscv" ]
 ]
 
