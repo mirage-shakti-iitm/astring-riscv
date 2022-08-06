@@ -1,5 +1,5 @@
 true : package(bytes), bin_annot, safe_string, function_sections
 
-<src> : include
+<src> : include, default_compartment_id(99)
 <src/astring_top*> : package(compiler-libs.toplevel)
 <test> : include
